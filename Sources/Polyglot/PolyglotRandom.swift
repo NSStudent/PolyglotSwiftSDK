@@ -3,7 +3,8 @@
 //  PolyglotSwiftSDK
 //
 //  The 781 random numbers of the Polyglot opening book format (`Random64[781]`), as published in the format
-//  description at http://hgm.nubati.net/book_format.html, which takes them from the PolyGlot source code.
+//  description at http://hgm.nubati.net/book_format.html, which takes them from the PolyGlot source code (GPL).
+//  The description states that the table is not believed to be covered by copyright; see the note in LICENSE.
 //
 
 /// The Zobrist table that every Polyglot key is built from.

@@ -19,3 +19,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Third-party data
+
+Sources/Polyglot/PolyglotRandom.swift contains the 781 Random64 numbers of the
+Polyglot opening book format. They are reproduced from the format description
+at http://hgm.nubati.net/book_format.html, which takes them from the source code
+of PolyGlot by Fabien Letouzey (GPL). The format description states that the
+table is not believed to be covered by copyright and that the algorithm may be
+freely implemented, including in closed-source programs. The values are
+included here only as the data needed to read and write Polyglot books; no
+PolyGlot code is included. The MIT license above covers this package's own
+code; it does not claim any rights over that table.

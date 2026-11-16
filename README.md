@@ -121,3 +121,5 @@ swift test
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+The one exception is data, not code: the 781 `Random64` numbers in `Sources/Polyglot/PolyglotRandom.swift` come from the [Polyglot format description](http://hgm.nubati.net/book_format.html), which takes them from the GPL source code of PolyGlot. The description states that the table is not believed to be covered by copyright and that the format may be implemented freely, including in closed-source programs. The table is included only so that keys match existing books, and the MIT license does not claim any rights over it. No PolyGlot code is included. See the note at the end of [LICENSE](LICENSE).
